@@ -38,13 +38,14 @@ const Posts = () => {
         </div>
           </div>
           ) : (
-{posts.map((post) => (      
+posts.map((post) => (      
            <div className="post">
           <div className="post__title">{post.title}</div>
           <p className="post__body">{post.body}</p>
         </div>
-        ))};    
-          )}                    
+        ));    
+          )}   
+          {}                 
             </>
   );
 };
